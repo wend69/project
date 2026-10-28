@@ -107,6 +107,14 @@ int main(void){
     }
   printf("%d",asd2);
   }
+    int asd3 = 0;
+  while(asd3 < 10){
+    asd3++;
+    if (asd3 % 2 == 0){
+      continue;
+    }
+    printf("%d\n", asd3 );
+  }
 
   
 
